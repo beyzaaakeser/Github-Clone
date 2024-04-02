@@ -4,8 +4,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <nav class="navbar ">
+        <div class="container-fluid ">
+ 
+
+          <div class="d-flex justify-content-between align-items-center container-fluid" id="navbarSupportedContent">
+
+            <div class="d-flex align-items-center justify-content-center">
+            <a class="btn btn-tertiary border-black p-0 px-1" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <i class="bi bi-list fs-4"></i>
+            </a>
+            <div class=" d-flex align-items-center justify-content-center gap-2 ">
+              <li class="nav-item align-items-center justify-content-center d-flex">
+                <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-github fs-2 ps-3"></i></a>
+              </li>
+              <li class="nav-item align-items-center justify-content-center d-flex">
+                <a class="nav-link text-dark fw-semibold ps-2" href="https://github.com/beyzaaakeser" target="_blank">beyzaaakeser</a>
+              </li>
+            </div>
+            </div>
+
+            <div class="d-flex  align-items-center justify-content-center ">
+          
+            <div class="d-flex d-none d-md-flex align-items-center justify-content-center  nav-search m-0 p-0" role="search">
+                <div class="input-group d-flex align-items-center justify-content-center border-dark  ">
+                    <span class="input-group-text border-end-0 bg-white  border-dark"><i class="bi bi-search"></i> </span>
+                    <input type="text" class="form-control border-end-0 border-start-0  border-dark" aria-label="" placeholder="Type / to search">
+                    <span class="input-group-text bg-white  border-dark">|<i class="bi bi-chevron-right fw-bolder"></i>_  </span>
+                </div>
+                          
+            </div>
+
+            <ul  class="navbar-nav-right m-0 p-0 mb-lg-0 d-flex align-items-center justify-content-center gap-2 ps-2 ">
+                <li class=" d-none d-md-flex ps-3 ">
+                    <a class="btn border-black" aria-current="page" href="#"><i class="bi bi-plus-lg"></i><i class="bi bi-caret-down-fill"></i></a>
+                </li>
+                <li class=" d-none d-md-flex ">
+                    <a class="btn border-black" aria-current="page" href="#"><i class="bi bi-record-circle"></i></a>
+                </li>
+                <li class="">
+                    <a class="btn border-black" aria-current="page" href="#"><i class="bi bi-bezier2"></i></a>
+                </li>
+                <li class="">
+                    <a class="btn border-black" aria-current="page" href="#"><i class="bi bi-inbox"></i></a>
+                </li>
+                <li class="">
+                     <img class="rounded-circle user-img" src="images/beyzakeser.jpg" alt="">
+                </li>
+            </ul>
+                  
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid ">
+            <ul class="list-unstyled d-flex gap-4 mt-3 ms-3 mb-0 bottom-menu">
+                <li class="active">
+                    <a href="">
+                        <i class="bi bi-book pe-1"></i> Overview
+                    </a>
+                </li>
+                <li >
+                    <a class="border-dark">
+                        <i class="bi bi-journal-bookmark-fill pe-1"></i> Repositories <div class=" count-repo d-inline px-2 rounded-5 ms-1">27</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="bi bi-window-sidebar pe-1"></i> Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="bi bi-box pe-1"></i> Packages
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="bi bi-star pe-1"></i> Stars
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start rounded-end-3" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <section class="main container-fluid mb-5">
+        <div class="main-container container d-flex flex-column flex-md-row">
+            <div class="left col-12 col-md-3 ">
+                <div class="d-flex flex-column">
+                    <img src="images/beyzakeser.jpg" class="rounded-circle user-img" alt="">
+                    <h4 class="mt-3 mb-0">Beyza Keser</h4>
+                    <span class="fs-6 text-muted">beyzaaakeser</span>
+
+                    <button class="p-1 rounded-2 border-1 mt-3">Follow</button>
+                    <p class="mt-3 fs-6 fw-light">
+                        Full Stack Developer || HTML | CSS | JavaScript | React | Redux | Java | Spring Framework | SQL | Hibernate
+                    </p>
+                    <div class="d-flex align-items-center">
+                            <i class="bi bi-people fs-6 me-1"></i>
+                            <div class="d-flex gap-2 align-items-center">
+                                <a href="">
+                                    <span class="fw-bold">159</span> <span class="ms-1" >followers</span> 
+                               </a>
+              
+                               <a href="" class="">
+                                   <span class="fw-bold ms-1">164</span><span class="ms-1" >following</span> 
+                               </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right col-12 col-md-9">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora similique numquam culpa ipsam labore distinctio porro reiciendis, obcaecati quaerat quam a esse non nam aliquam maxime adipisci soluta, dicta fugit!
+            </div>
+        </div>
+
+    </section>
+
+
+<i class="bi bi-plus"></i>
+<i class="bi bi-bell"></i>
+<i class="bi bi-caret-down"></i>
+<i class="bi bi-bezier2"></i>
+<i class="bi bi-inbox"></i>
+<i class="bi bi-record-circle"></i>
+
+
+
+
+<i class="bi bi-book"></i>
+
+
+
+<i class="bi bi-geo-alt"></i>
+<i class="bi bi-search"></i>
+
+<i class="bi bi-chat-right"></i>
+<i class="bi bi-chat-square"></i>
+
+<i class="bi bi-pc-display-horizontal"></i>
+<i class="bi bi-rocket-takeoff"></i>
+<i class="bi bi-gift"></i>
+
+<i class="bi bi-x-lg"></i>
+<i class="bi bi-x-circle"></i>
+
+<i class="bi bi-circle-fill"></i>
+
+      
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,56 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: small;
+    color:black;
+    ul{
+        list-style: none !important;
+        color:black;
+      
+    }
+        a{
+             text-decoration: none !important; 
+             color:black;
+        }
+    .navbar{
+        border-bottom: 1px solid rgb(59, 58, 58);
+        .nav-search{
+            padding: 0.3rem 0.4rem;
+        }
+        .navbar-nav-right{
+            list-style: none;
+            li{
+                a{
+                    padding: 0.3rem 0.4rem;
+                }
+            }
+            .user-img{
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+            }
+        }
+        .bottom-menu{
+            .count-repo{
+                border: 1px solid black;
+                background-color: rgb(224, 224, 224);
+            }
+            i{
+                font-size: 18px;
+            }
+            li{
+                position: relative;
+                
+            }
+            li.active::after{
+                content: "";
+                display: block;
+                width: 100%;
+                height: 1.5px;
+                background-color: orangered;
+                bottom:-8px;
+                position: absolute;
+            }
+        }
+    }
+}
