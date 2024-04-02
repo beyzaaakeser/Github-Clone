@@ -5,9 +5,11 @@
            margin-bottom: 3px;
         }
         .user-img{
-            width: 300px;
-            height: 300px;   
+            width: 100%;
+            max-width: 300px;
+            height: auto;   
             border: 3px solid black;
+
         }
         .social{
             i{
@@ -19,7 +21,7 @@
         .pins{
             border: 1px solid black;
             border-radius: 10px;
-            padding: 10px;
+            padding: 15px 20px;
             i{
                 font-size: 15px;
             }
@@ -28,6 +30,12 @@
                 color: #073F97;
                 font-weight: 500;
                 font-size: 15px;
+            }
+            p{
+                margin-bottom: 12px;
+            }
+            div > p{
+                margin-bottom: 7px;
             }
         }
         .public{
@@ -46,4 +54,14 @@
 
 }
 
-
+@media (max-width:768px){
+    .main{
+        .main-container{
+            .user-img{
+        width: 120px;
+        height: auto;   
+    } 
+        }
+    }
+   
+}

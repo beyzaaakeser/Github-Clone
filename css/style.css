@@ -56,8 +56,9 @@ body .navbar .bottom-menu li.active::after {
   margin-bottom: 3px;
 }
 .main .main-container .user-img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   border: 3px solid black;
 }
 .main .main-container .social {
@@ -70,7 +71,7 @@ body .navbar .bottom-menu li.active::after {
 .main .main-container .pins {
   border: 1px solid black;
   border-radius: 10px;
-  padding: 10px;
+  padding: 15px 20px;
 }
 .main .main-container .pins i {
   font-size: 15px;
@@ -79,6 +80,12 @@ body .navbar .bottom-menu li.active::after {
   color: #073F97;
   font-weight: 500;
   font-size: 15px;
+}
+.main .main-container .pins p {
+  margin-bottom: 12px;
+}
+.main .main-container .pins div > p {
+  margin-bottom: 7px;
 }
 .main .main-container .public {
   border: 1px solid black;
@@ -93,6 +100,12 @@ body .navbar .bottom-menu li.active::after {
   margin-left: 5px;
 }
 
+@media (max-width: 768px) {
+  .main .main-container .user-img {
+    width: 120px;
+    height: auto;
+  }
+}
 .active {
   font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
