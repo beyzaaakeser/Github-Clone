@@ -9,7 +9,41 @@
             height: 300px;   
             border: 3px solid black;
         }
+        .social{
+            i{
+                font-size: 18px;
+                margin-right: 5px;
+            }
+            border-bottom: 1px solid rgb(99, 98, 98);
+        }
+        .pins{
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px;
+            i{
+                font-size: 15px;
+            }
+
+            a{
+                color: #073F97;
+                font-weight: 500;
+                font-size: 15px;
+            }
+        }
+        .public{
+            border: 1px solid black;
+            padding: 2px 8px;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            font-size: 10px;
+            font-weight: 600;
+            margin-left: 5px;
+}
     }
+
 }
 
 
