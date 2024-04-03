@@ -1,3 +1,6 @@
+.off-menu{
+    width: 21% !important;
+    min-width: 200px !important;
 .offcanvas-body{
     ul{
         border-bottom: 1px solid gray;
@@ -11,4 +14,12 @@
             }
         }
     }
+}
+.offcanvas-footer{
+    padding: 20px;
+    a{
+        color: rgb(5, 5, 177);
+        font-size: 10px;
+    }
+}
 }

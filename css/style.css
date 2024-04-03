@@ -57,13 +57,24 @@ body .navbar .bottom-menu li.active::after {
   position: absolute;
 }
 
-.offcanvas-body ul {
+.off-menu {
+  width: 21% !important;
+  min-width: 200px !important;
+}
+.off-menu .offcanvas-body ul {
   border-bottom: 1px solid gray;
   padding-bottom: 10px;
 }
-.offcanvas-body ul li a i {
+.off-menu .offcanvas-body ul li a i {
   font-size: 1.1rem;
   margin-right: 5px;
+}
+.off-menu .offcanvas-footer {
+  padding: 20px;
+}
+.off-menu .offcanvas-footer a {
+  color: rgb(5, 5, 177);
+  font-size: 10px;
 }
 
 .main {
