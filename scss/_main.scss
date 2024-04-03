@@ -65,18 +65,24 @@
                 margin-top: 20px;
             }
             .medium{
-                border-radius: 4px;
+                a{
+                   border-radius: 4px;
                 padding: 2px 8px;
                 background-color: black;
                 color: white;
-                font-size: 11px;
+                font-size: 11px;  
+                }
+               
             }
             .linkedin{
-                border-radius: 4px;
+                a{
+                  border-radius: 4px;
                 padding: 2px 8px;
                 background-color: #0F7AB2;
                 color: white;
-                font-size: 11px;
+                font-size: 11px;  
+                }
+                
             }
         }
         .green-repos{

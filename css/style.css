@@ -113,14 +113,14 @@ body .navbar .bottom-menu li.active::after {
 .main .main-container .about h4 {
   margin-top: 20px;
 }
-.main .main-container .about .medium {
+.main .main-container .about .medium a {
   border-radius: 4px;
   padding: 2px 8px;
   background-color: black;
   color: white;
   font-size: 11px;
 }
-.main .main-container .about .linkedin {
+.main .main-container .about .linkedin a {
   border-radius: 4px;
   padding: 2px 8px;
   background-color: #0F7AB2;
@@ -146,6 +146,13 @@ body .navbar .bottom-menu li.active::after {
     height: auto;
   }
 }
+footer {
+  padding-bottom: 20px;
+}
+footer li a {
+  font-size: 11px;
+}
+
 .active {
   font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
