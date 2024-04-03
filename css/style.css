@@ -69,7 +69,7 @@ body .navbar .bottom-menu li.active::after {
   margin-right: 5px;
 }
 .main .main-container .pins {
-  border: 1px solid black;
+  border: 1px solid gray;
   border-radius: 10px;
   padding: 15px 20px;
 }
@@ -126,6 +126,18 @@ body .navbar .bottom-menu li.active::after {
   background-color: #0F7AB2;
   color: white;
   font-size: 11px;
+}
+.main .main-container .green-repos {
+  margin-top: 20px;
+}
+.main .main-container .green-repos .repo-img {
+  border: 1px solid gray;
+  border-radius: 8px 8px 0 0;
+  padding: 8px;
+  overflow: hidden;
+}
+.main .main-container .green-repos .repo-img img {
+  width: 100%;
 }
 
 @media (max-width: 768px) {
