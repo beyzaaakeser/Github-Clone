@@ -50,6 +50,35 @@
             font-weight: 600;
             margin-left: 5px;
 }
+        .about{
+            border: 1px solid gray;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            h2,h4{
+                border-bottom: 1px solid gray;
+                padding-bottom: 10px;
+                margin-bottom: 15px;
+            
+            }
+            h4{
+                margin-top: 20px;
+            }
+            .medium{
+                border-radius: 4px;
+                padding: 2px 8px;
+                background-color: black;
+                color: white;
+                font-size: 11px;
+            }
+            .linkedin{
+                border-radius: 4px;
+                padding: 2px 8px;
+                background-color: #0F7AB2;
+                color: white;
+                font-size: 11px;
+            }
+        }
     }
 
 }

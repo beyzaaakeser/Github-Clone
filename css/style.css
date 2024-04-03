@@ -99,6 +99,34 @@ body .navbar .bottom-menu li.active::after {
   font-weight: 600;
   margin-left: 5px;
 }
+.main .main-container .about {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.main .main-container .about h2, .main .main-container .about h4 {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+.main .main-container .about h4 {
+  margin-top: 20px;
+}
+.main .main-container .about .medium {
+  border-radius: 4px;
+  padding: 2px 8px;
+  background-color: black;
+  color: white;
+  font-size: 11px;
+}
+.main .main-container .about .linkedin {
+  border-radius: 4px;
+  padding: 2px 8px;
+  background-color: #0F7AB2;
+  color: white;
+  font-size: 11px;
+}
 
 @media (max-width: 768px) {
   .main .main-container .user-img {
