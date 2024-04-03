@@ -18,6 +18,14 @@ body .navbar {
 body .navbar .nav-search {
   padding: 0.3rem 0.4rem;
 }
+body .navbar .nav-search div {
+  border: 1px solid gray;
+  border-radius: 5px;
+  overflow: hidden;
+}
+body .navbar .nav-search div .input-group-text {
+  padding: 0.3rem 0.6rem;
+}
 body .navbar .navbar-nav-right {
   list-style: none;
 }
@@ -47,6 +55,15 @@ body .navbar .bottom-menu li.active::after {
   background-color: orangered;
   bottom: -8px;
   position: absolute;
+}
+
+.offcanvas-body ul {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+.offcanvas-body ul li a i {
+  font-size: 1.1rem;
+  margin-right: 5px;
 }
 
 .main {

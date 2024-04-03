@@ -16,6 +16,14 @@ body{
         border-bottom: 1px solid rgb(59, 58, 58);
         .nav-search{
             padding: 0.3rem 0.4rem;
+            div{
+                border: 1px solid gray;
+                border-radius: 5px;
+                overflow: hidden;
+                .input-group-text{
+                    padding: 0.3rem 0.6rem;
+                }
+            }
         }
         .navbar-nav-right{
             list-style: none;

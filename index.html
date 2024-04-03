@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github Clone</title>
+    <link rel="shortcut icon" href="images/github-icon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,16 +38,16 @@
           
             <div class="d-flex d-none d-md-flex align-items-center justify-content-center  nav-search m-0 p-0" role="search">
                 <div class="input-group d-flex align-items-center justify-content-center border-dark  ">
-                    <span class="input-group-text border-end-0 bg-white  border-dark"><i class="bi bi-search"></i> </span>
-                    <input type="text" class="form-control border-end-0 border-start-0  border-dark" aria-label="" placeholder="Type / to search">
-                    <span class="input-group-text bg-white  border-dark">|<i class="bi bi-chevron-right fw-bolder"></i>_  </span>
+                    <span class="input-group-text border-end-0 bg-white"><i class="bi bi-search"></i> </span>
+                    <input type="text" class="form-control border-end-0 border-start-0  d-none d-lg-flex" aria-label="" placeholder="Type / to search">
+                    <span class="input-group-text bg-white d-none d-lg-flex">|<i class="bi bi-chevron-right fw-bolder"></i>_  </span>
                 </div>
                           
             </div>
 
             <ul  class="navbar-nav-right m-0 p-0 mb-lg-0 d-flex align-items-center justify-content-center gap-2 ps-2 ">
-                <li class=" d-none d-md-flex ps-3 ">
-                    <a class="btn border-black" aria-current="page" href="#"><i class="bi bi-plus-lg"></i><i class="bi bi-caret-down-fill"></i></a>
+                <li class=" d-none d-md-flex ps-lg-3  flex-nowrap ">
+                    <a class="btn border-black d-flex flex-nowrap " aria-current="page" href="#"><i class="bi bi-plus-lg"></i><i class="bi bi-caret-down-fill"></i></a>
                 </li>
                 <li class=" d-none d-md-flex ">
                     <a class="btn border-black" aria-current="page" href="#"><i class="bi bi-record-circle"></i></a>
@@ -68,27 +69,27 @@
         <div class="container-fluid ">
             <ul class="list-unstyled d-flex gap-4 mt-3 ms-3 mb-0 bottom-menu">
                 <li class="active">
-                    <a href="">
+                    <a href="" class="d-flex flex-nowrap align-items-center">
                         <i class="bi bi-book pe-1"></i> Overview
                     </a>
                 </li>
                 <li>
-                    <a href="" class="border-dark">
+                    <a href="" class="d-flex flex-nowrap align-items-center">
                         <i class="bi bi-journal-bookmark-fill pe-1"></i> Repositories <div class=" count-repo d-inline px-2 rounded-5 ms-1">27</div>
                     </a>
                 </li>
                 <li >
-                    <a href="">
+                    <a href=""  class="d-flex flex-nowrap align-items-center d-none d-sm-flex">
                         <i class="bi bi-window-sidebar pe-1"></i> Projects
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href=""  class="d-flex flex-nowrap align-items-center d-none d-md-flex">
                         <i class="bi bi-box pe-1"></i> Packages
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="" class="d-flex flex-nowrap align-items-center d-none d-md-flex">
                         <i class="bi bi-star pe-1"></i> Stars
                     </a>
                 </li>
@@ -97,24 +98,26 @@
     </nav>
 
     <div class="offcanvas offcanvas-start rounded-end-3" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <div class="offcanvas-header pb-0">
+          <h5 class="mb-0" id="offcanvasExampleLabel"><i class="bi bi-github fs-1"></i></h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
-          <div>
-            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-          </div>
-          <div class="dropdown mt-3">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-              Dropdown button
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <div class="offcanvas-body pt-1">
+          <div class=" mt-3">
+            <ul class="offcanvas-menu list-unstyled d-flex flex-column gap-3 mt-0 ms-1 ">
+              <li><a class="" href="#"><i class="bi bi-house-door"></i> Home</a></li>
+              <li><a class="" href="#"><i class="bi bi-record-circle"></i> Issues</a></li>
+              <li><a class="" href="#"><i class="bi bi-bezier2"></i> Pull Requests</a></li>
+              <li><a class="" href="#"><i class="bi bi-window-sidebar"></i> Projects</a></li>
+              <li><a class="" href="#"><i class="bi bi-chat-square"></i> Discussions</a></li>
+              <li><a class="" href="#"><i class="bi bi-pc-display-horizontal"></i> Codespaces</a></li>
+            </ul>
+            <ul class="list-unstyled ms-1 d-flex flex-column gap-3 mt-3">
+                <li><a class="" href="#"><i class="bi bi-rocket-takeoff"></i> Explore</a></li>
+                <li><a class="" href="#"><i class="bi bi-gift"></i> Marketplace</a></li>
             </ul>
           </div>
+
         </div>
     </div>
 
@@ -307,8 +310,7 @@
 
     <footer>
         <div class="d-flex gap-3 justify-content-center ">
-            
-            <ul class="list-unstyled d-flex gap-3 align-items-center ">
+            <ul class="list-unstyled d-flex gap-3 align-items-center flex-wrap justify-content-center ">
                 <li> <a href=""><i class="bi bi-github fs-4"></i></a></li>
                 <li><a href="">&copy; 2024 GitHub, Inc.</a></li>
                 <li><a href="">Terms</a></li>
@@ -318,7 +320,7 @@
                 <li><a href="">Docs</a></li>
                 <li><a href="">Contact</a></li>
                 <li><a href="">Manage cookies</a></li>
-                <li><a href="">Do not share my personal information</a></li>
+                <li class="d-none d-md-flex"><a href="">Do not share my personal information</a></li>
                 
             </ul>
         </div>
